@@ -1,0 +1,164 @@
+/*betűtípusok*/
+@font-face{
+    font-family: "vinti";
+    src: url("/font/vinti.ttf")
+}
+@font-face{
+    font-family: "vintage";
+    src: url("/font/vintage.ttf")
+}
+
+/* első oldalon SPJ szöveg*/
+#spj{
+    color: #b89433;
+    font-family: "vintage";
+    font-size: 70px;
+    line-height: 100px;
+    background-color: black;
+    margin: 20px;
+    }
+
+ /*oldalakon a címek*/
+#pages{
+    color: #b89433;
+    font-family: "vintage";
+    font-size: 70px;
+    line-height: 100px;
+    background-color: black;
+    margin: 20px;
+}
+
+/*wiki idézet*/
+#wiki{
+    color: #b89433;
+    background-color: black;
+    text-align: justify;
+    margin: 20px;
+}
+em{
+    color:#b89433;
+    font-family: "vinti";
+    font-weight: 600;
+    margin: 10px;
+}
+/*logo*/
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:10px;
+}
+/* képek az ékszerekről*/
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #b89433;
+    float: left;
+    width: 20%;
+    margin: 20px
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #b89433;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "vinti";
+    font-size: 40px;
+    color: #b89433;
+    size: 40px;
+    background-color: black;
+  }
+
+/*
+kép háttérnek - nem szép, formázni kell még a képet
+
+html{
+    background-image:url("../img/back.jpg");
+}
+
+plusz a fekete hátté megoldás sem elegáns, hogy nem css-ben van (itt nem működik)
+
+html{
+    background-color: black;
+}
+*/
+
+/*menü*/
+#nav{
+    
+    font-family: "vintage";
+    background-color: black;
+    text-align: justify;
+    border-color: black;
+}
+
+#name{
+    color: #b89433;
+    background-color: black;
+    font-size: 30px;
+    text-align: justify;
+}
+/*contacts táblázat*/
+#about{
+    color: #b89433;
+    background-color: black;
+    margin: 20px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: "vinti";
+    width: 35%;
+    height: 45px;
+}
+
+thead{
+    font-family: "vinti";
+}
+
+/*mailto */
+#email{
+    background-color: #b89433;
+    line-height: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 10px;
+    font-size: 20px;
+}
+
+#username{
+    background-color: #b89433;
+    line-height: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 10px;
+    font-size: 20px;
+    }
+
+   
+#blabla{
+    background-color: #b89433;
+    line-height: 20px;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 131%;
+    height: 300px;
+
+
+}
+#send{
+    background-color: #b89433;
+    color: black;
+    font-family: "vinti";
+    font-size: 30px;
+}
