@@ -55,8 +55,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #b89433;
     float: left;
-    width: 20%;
-    margin: 20px
+    margin: 20px;
 
   }
   
@@ -65,16 +64,16 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
+    width: 330px;
     height: auto;
+    display: inline;
   }
   
   div.desc {
-    padding: 10%;
+    padding: 15px;
     text-align: center;
     font-family: "vinti";
-    font-size: 180%;
-    width: 100%;
+    font-size: 30px;
     color: #b89433;
     size: 40px;
     background-color: black;
