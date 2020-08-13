@@ -34,71 +34,46 @@
         </div>
     </nav>
 
-    <table id="about">
-        <h1 id="pages">ContactS</h1>
-        <thead>
+    <h1 id="pages">ContactS</h1>
 
-        </thead>
-        <tbody>
-            <tr>
-                <td> zhi.steampunk.jewellery@gmail.com
-                </td>
-                <td>
+    <div class="icon">
+        
+            <a target="blank" href="https://www.facebook.com/Steampunk-Jewellery-113340837112136">
+                <i class="fa fa-facebook-official" style="font-size:70px;color:#b89433"></i>
 
-                    <div class="icon">
-                <td>
-                    <a target="blank" href="https://www.facebook.com/Steampunk-Jewellery-113340837112136">
-                        <i class="fa fa-facebook-official" style="font-size:70px;color:#b89433"></i>
+            </a>
+            <a target="blank" href="https://www.instagram.com">
+                <i class="fa fa-instagram" style="font-size:70px;color: #b89433"></i>
+            </a>
+            <a target="blank" href="mailto:zhi.steampunk.jewellery@gmail.com?subject=mail%20from%20spj%20page">
+                <i class="fa fa-envelope" style="font-size:70px;color: #b89433"></i>
+            </a>    
+          
+        <br>
 
-                    </a>
-                </td>
+        <form id="mailto" action="mailto:zhi.steampunk.jewellery@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input id="username" type="text" name="name"><br>
+            E-mail:<br>
+            <input id="email" type="text" name="mail"><br>
+            Comment:<br>
 
-                </td>
-                <td>
-                    <div class="icon">
-                        <a target="blank" href="https://www.instagram.com">
-                            <i class="fa fa-instagram" style="font-size:70px;color: #b89433"></i>
-                        </a>
-                    </div>
+            <textarea id="blabla"></textarea>
+            </br>
+            <div class="button">
+                <button onclick="sendMail()" id="send">Send</button>
 
-            </tr>
-            <td>
+                <script>
+                    function sendMail() {
+                        alert("Sorry, 'send email' function is not working in this time on this page!");
+                    }
+                </script>
 
-                <form action="mailto:zhi.steampunk.jewellery@gmail.com" method="post" enctype="text/plain">
-                    Name:<br>
-                    <input id="username" type="text" name="name"><br>
-                    E-mail:<br>
-                    <input id="email" type="text" name="mail"><br>
-                    Comment:<br>
+        </form>
 
-                    <textarea id="blabla"></textarea>
-                    </br>
-                    <div class="button">
-                        <button onclick="sendMail()" id="send" >Send</button>
-                
-                        <script>
-                            function sendMail() {
-                                alert("Sorry, 'send email' function is not working in this time on this page!");
-                            }
-                        </script>
-                    
-                </form>
-
-            </td>
-
-            </tr>
-
-
-        </tbody>
-
-    </table>
-
-
-
-    <script src="/js/main.js"></script>
-
-
+        <script src="/js/main.js"></script>
 
 </body>
 
 </html>
+
