@@ -34,7 +34,6 @@
     background-color: black;
     text-align: justify;
     margin: 20px;
-    size: 80%;
 }
 em{
     color:#b89433;
@@ -54,7 +53,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #b89433;
     float: left;
-    width: 20%;
+    width: 250px;
     margin: 20px
 
   }
@@ -64,7 +63,7 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
+    width: 248px;
     height: auto;
   }
   
