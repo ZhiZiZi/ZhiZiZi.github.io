@@ -169,10 +169,10 @@ html{
 
 div.icon{
     margin-left: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 
-/*mailto */
+/*közvetlen mailküldés - kivettem
 
 #mailto{
     color: #b89433;
@@ -182,6 +182,7 @@ div.icon{
     padding-bottom: 5px;
     
 }
+
 
 #daten{
     color: #b89433;
@@ -229,4 +230,4 @@ div.icon{
     font-size: 30px;
     margin-bottom: 20px;
 }
-
+*/
