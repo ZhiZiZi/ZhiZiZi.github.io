@@ -1,3 +1,4 @@
+</tr>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +16,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -34,111 +36,45 @@
         </div>
     </nav>
 
-    <table id="about">
-        <h1 id="pages">ContactS</h1>
-        <thead>
+    <h1 id="pages">ContactS</h1>
 
-        </thead>
-        <tbody>
-            <tr>
-                <td id="zhi"> zhi.steampunk.jewellery@gmail.com
-                </td>
-                <td>
+    <div class="icon">
 
-                    <div class="icon">
-                <td>
-                    <a target="blank" href="https://www.facebook.com/Steampunk-Jewellery-113340837112136">
-                        <i class="fa fa-facebook-official" style="font-size:70px;color:#b89433"></i>
+        <a target="blank" href="https://www.facebook.com/Steampunk-Jewellery-113340837112136">
+            <i class="fa fa-facebook-official" style="font-size:70px;color:#b89433"></i>
 
-                    </a>
-                </td>
+        </a>
+        <a target="blank" href="https://www.instagram.com">
+            <i class="fa fa-instagram" style="font-size:70px;color: #b89433"></i>
+        </a>
+        <a target="blank" href="mailto:zhi.steampunk.jewellery@gmail.com?subject=mail%20from%20spj%20page">
+            <i class="fa fa-envelope" aria-hidden="true" style="font-size:70px;color: #b89433"></i>
+        </a>
 
-                </td>
-                <td>
-                    <div class="icon">
-                        <a target="blank" href="https://www.instagram.com">
-                            <i class="fa fa-instagram" style="font-size:70px;color: #b89433"></i>
-                        </a>
-                    </div>
+        <br>
 
-            </tr><!DOCTYPE html>
-            <html lang="en">
-            
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>About</title>
-                <link rel="stylesheet" href="/css/style.css">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-                <style>
-                    body {
-                        background-color: black;
+        <form id="mailto" action="mailto:zhi.steampunk.jewellery@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input id="username" type="text" name="name"><br>
+            E-mail:<br>
+            <input id="email" type="text" name="mail"><br>
+            Comment:<br>
+
+            <textarea id="blabla"></textarea>
+            </br>
+            <div class="button">
+                <button onclick="sendMail()" id="send">Send</button>
+
+                <script>
+                    function sendMail() {
+                        alert("Sorry, 'send email' function is not working in this time on this page!");
                     }
-                </style>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            
-            </head>
-            
-            <body>
-                <nav id="nav" class="navbar navbar-inverse">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" id="name" href="/index.html">home</a>
-                        </div>
-                        <ul class="nav navbar-nav">
-            
-                            <li><a id="name" href="/pages/necklaces.html">necklaces & pendants</a></li>
-                            <li><a id="name" href="/pages/earrings.html">earrings</a></li>
-                            <li><a id="name" href="/pages/brooches.html">brooches & hairpins</a></li>
-                            <li><a id="name" href="/pages/contacts.html">contacts</a></li>
-            
-                        </ul>
-                    </div>
-                </nav>
-            
-                <h1 id="pages">ContactS</h1>
-            
-                <div class="icon">
-                    
-                        <a target="blank" href="https://www.facebook.com/Steampunk-Jewellery-113340837112136">
-                            <i class="fa fa-facebook-official" style="font-size:70px;color:#b89433"></i>
-            
-                        </a>
-                        <a target="blank" href="https://www.instagram.com">
-                            <i class="fa fa-instagram" style="font-size:70px;color: #b89433"></i>
-                        </a>
-                        <a target="blank" href="mailto:zhi.steampunk.jewellery@gmail.com?subject=mail%20from%20spj%20page">
-                            <i class="fa fa-envelope" aria-hidden="true" style="font-size:70px;color: #b89433"></i>
-                        </a>    
-                      
-                    <br>
-            
-                    <form id="mailto" action="mailto:zhi.steampunk.jewellery@gmail.com" method="post" enctype="text/plain">
-                        Name:<br>
-                        <input id="username" type="text" name="name"><br>
-                        E-mail:<br>
-                        <input id="email" type="text" name="mail"><br>
-                        Comment:<br>
-            
-                        <textarea id="blabla"></textarea>
-                        </br>
-                        <div class="button">
-                            <button onclick="sendMail()" id="send">Send</button>
-            
-                            <script>
-                                function sendMail() {
-                                    alert("Sorry, 'send email' function is not working in this time on this page!");
-                                }
-                            </script>
-            
-                    </form>
-            
-                    <script src="/js/main.js"></script>
-            
-            </body>
-            
-            </html>
-            
-      
+                </script>
+
+        </form>
+
+        <script src="/js/main.js"></script>
+
+</body>
+
+</html>
