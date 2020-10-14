@@ -77,67 +77,6 @@ div.gallery {
     background-color: black;
   }
 
-  /*desc %-os kicsinyítése - sikertelen
-  @media screen and (max-width: 640px) {
-    .sqs-lightbox-meta {
-        image-rendering: 30% !important;   
-    }}
-*/
-
-/*mobil-tabi nézet - hasznos, de most nem kell*/
-/* For mobile phones: 
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    For tablets:
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 768px) {
-    For desktop:
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-
-*/
-
-/*
-kép háttérnek - nem szép, formázni kell még a képet
-
-html{
-    background-image:url("../img/back.jpg");
-}
-
-plusz a fekete hátté megoldás sem elegáns, hogy nem css-ben van (itt nem működik)
-
-html{
-    background-color: black;
-}
-*/
-
-/*menü*/
 #nav{
     
     font-family: "vintage";
@@ -153,82 +92,9 @@ html{
     font-size: 30px;
     text-align: justify;
 }
-/*contacts táblázat
-
-/*mailcím beírva - kivettem
-#mailaddress{
-    color: #b89433;
-    background-color: black;
-    line-break: 50px;
-    font-size: 30px;
-    font-family: "vinti";
-    width: 34%;
-    height: 45px;
-    padding-top: 50px;
-}
-*/
 
 div.icon{
     margin-left: 50px;
     margin-bottom: 100px;
 }
 
-/*közvetlen mailküldés - kivettem
-
-#mailto{
-    color: #b89433;
-    font-family: "vinti";
-    font-size: 30px;
-    margin-top: 50px;
-    padding-bottom: 5px;
-    
-}
-
-
-#daten{
-    color: #b89433;
-    font-family: "vinti";
-    font-size: 20px;
-    height: 25px;
-}
-#email{
-    background-color: #b89433;
-    line-height: 50px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    size: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-#username{
-    background-color: #b89433;
-    line-height: 50px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    size: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    }
-
-   
-#blabla{
-    background-color: #b89433;
-    line-height: 20px;
-    color: black;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 500px;
-    height: 300px;
-    margin-bottom: 20px;
-
-}
-#send{
-    background-color: #b89433;
-    color: black;
-    font-family: "vinti";
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-*/
